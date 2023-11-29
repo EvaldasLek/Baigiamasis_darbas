@@ -11,8 +11,8 @@ namespace Tests
         {
             Driver.InitializeDriver();
             Home.Open();
-            Home.CloseNewsletter();
-            Home.CloseNewsletterMinimized();
+            //Home.CloseNewsletter();
+            //Home.CloseNewsletterMinimized();
             Home.CloseCookies();
         }
     }
