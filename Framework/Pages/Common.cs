@@ -1,15 +1,12 @@
 ﻿using OpenQA.Selenium;
-using OpenQA.Selenium.DevTools.V117.Debugger;
-using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
 using System;
-using System.Security.Policy;
 
 namespace Framework.Pages
 {
     public class Common
     {
-        internal static IWebElement GetElement(string locator)
+        private static IWebElement GetElement(string locator)
         {
             return Driver.GetDriver().FindElement(By.XPath(locator));
         }
